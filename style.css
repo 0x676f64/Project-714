@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background: #1e1e2e;
+     }
+
+html {
+    font-size: 62.5%;
+}
+
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+em, i {
+    font-style: italic;
+}
+
+.header-global {
+    padding: 2rem 2rem 2rem;
+    z-index: 2;
+    background: #1e1e2e;
+}
+
+.header-global .header-global-top {
+    border-bottom: 2px solid #f5e0dc;
+    height: 60px;
+}
+
+.header-global .site-wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: static;
+    padding: 0 0 0.625rem;
+}
+
+.site-main .site-wrapper {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1024px){
+    .site-wrapper {
+    width: 100%;
+}}
+
+.site-wrapper {
+    max-width: 1024px;
+    margin: 10 auto;
+}
+
+header-global .header-global-logo {
+    display: flex;
+    margin: 0 75px;
+    flex: 4 1 200px;
+    overflow: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header-global .header-global-logo-link {
+    overflow: hidden;
+    width: 95px;
+    padding-right: 0.625rem;
+}
+
+a:visited {
+    color: #f5e0dc;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: "Roboto Condensed";
+    color: #f5e0dc;
+    font-size: 3.0rem;
+    box-sizing: border-box;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.header-global .site-logo {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 23px;
+}
+
+@media screen and (max-width: 400px){
+    .header-global-search-form-open .search-form-input {
+        width: 120%;
+    }
+}
+
+.header-global.search-form-open .search-form-input {
+    height: 80px;
+    padding-right: 2px;
+}
+
+@media screen and (max-width: 415px){
+    .header-global .search-form-input {
+        font-size: 16px;
+        transform: scale(0.8);
+        transform-origin: left;
+    }
+}
+
+img {
+    width: 70px;
+    overflow: hidden;
+    margin-bottom: -50px;
+}
+
+input-wrapper {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    border: 0.5px solid #f5e0dc;
+    color: #f5e0dc;
+}
+
+input {
+    display: flex;
+    width: 250px;
+    border: 0.5px solid #f5e0dc;
+    font-style: "Roboto Condensed";
+    color: #f5e0dc;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-style: "Roboto Condensed";
+    color: #f5e0dc;
+}
+
+.wrap .nav {
+    display: flex;
+    flex-flow: row flex-start;
+    align-items: center;
+    position: static;
+    width: 100%;
+    padding-top: 0 0 0 0.625rem;
+    font-family: "Roboto Condensed";
+}
+
+.nav-menu {
+    flex-grow: 6;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul, .nav li, .nav ol {
+    display: flex;
+    list-style: none;
+    position: relative;
+    z-index: 999;
+    top: 30px;
+    justify-content: space-between;
+
+}
+
+.nav .item {
+    display: flex;
+    position: relative;
+    z-index: 0;
+    margin: 0 1.875rem 0 1.875rem;
+    justify-content: space-between;
+}
+
+a {
+    color: #f38ba8;
+    text-decoration: none;
+}
